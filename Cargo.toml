@@ -1,0 +1,12 @@
+[package]
+name = "badnet"
+version = "0.1.0"
+authors = ["Kristoffer Søholm <k.soeholm@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "0.2.22", features = ["full"] }
+structopt = { version = "0.3", default-features = false }
+rand = "0.7.3"
